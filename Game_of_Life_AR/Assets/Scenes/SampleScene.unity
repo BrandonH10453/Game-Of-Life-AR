@@ -1811,6 +1811,8 @@ MonoBehaviour:
   spawnablePrefab: {fileID: 1693677709709504603, guid: 3717b52f21142944eae082fc0d70bd82, type: 3}
   Board: {fileID: 1693677709709504603, guid: 3717b52f21142944eae082fc0d70bd82, type: 3}
   PlayerPiece: {fileID: 1990493805405916, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+  BoardButton: {fileID: 1641684536}
+  PlayerButton: {fileID: 1564156695}
 --- !u!1 &1894243117
 GameObject:
   m_ObjectHideFlags: 0
