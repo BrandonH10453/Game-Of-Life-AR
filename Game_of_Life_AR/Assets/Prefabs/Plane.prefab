@@ -264,7 +264,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (17)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -486,7 +490,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1447692505535718, guid: 641c2f236a501f3428f2b0e3ffb99bef, type: 3}
       propertyPath: m_Name
-      value: space_hex_black
+      value: Millionaire Estates
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447692505535718, guid: 641c2f236a501f3428f2b0e3ffb99bef, type: 3}
+      propertyPath: m_TagString
+      value: Millionaire Estates
       objectReference: {fileID: 0}
     - target: {fileID: 4328833019147686, guid: 641c2f236a501f3428f2b0e3ffb99bef, type: 3}
       propertyPath: m_LocalScale.x
@@ -782,7 +790,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (9)
+      value: Dean's List
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -856,7 +868,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (13)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -1300,7 +1316,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (3)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -1374,7 +1394,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (19)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -1448,7 +1472,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1447692505535718, guid: 641c2f236a501f3428f2b0e3ffb99bef, type: 3}
       propertyPath: m_Name
-      value: space_hex_black (1)
+      value: Countryside Acres
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447692505535718, guid: 641c2f236a501f3428f2b0e3ffb99bef, type: 3}
+      propertyPath: m_TagString
+      value: Countryside Acres
       objectReference: {fileID: 0}
     - target: {fileID: 4328833019147686, guid: 641c2f236a501f3428f2b0e3ffb99bef, type: 3}
       propertyPath: m_LocalScale.x
@@ -1596,7 +1624,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (1)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -1744,7 +1776,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (1)
+      value: Make a Friend
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -1818,7 +1854,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1576357879926818, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
       propertyPath: m_Name
-      value: space_rect_red (1)
+      value: Get Married
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576357879926818, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
+      propertyPath: m_TagString
+      value: Add a person
       objectReference: {fileID: 0}
     - target: {fileID: 4358035448126146, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
       propertyPath: m_LocalScale.x
@@ -1966,7 +2006,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (4)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -2040,7 +2084,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1576357879926818, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
       propertyPath: m_Name
-      value: space_rect_red
+      value: Career Choice
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576357879926818, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
+      propertyPath: m_TagString
+      value: Career Choice
       objectReference: {fileID: 0}
     - target: {fileID: 4358035448126146, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
       propertyPath: m_LocalScale.x
@@ -2188,7 +2236,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (2)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -2262,7 +2314,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (13)
+      value: Ski Accident
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: 'Doctor Field: 5k'
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -2336,7 +2392,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (21)
+      value: Car Accident
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Pay 10k if not insured
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -2484,7 +2544,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (17)
+      value: Car rolls away
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Pay 15k if not insured
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -2632,7 +2696,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (14)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -2706,7 +2774,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (16)
+      value: Cycle to Work
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -3002,7 +3074,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (8)
+      value: Your buddies crash your car
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Pay 5k if not insured
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -3076,7 +3152,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (10)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -3224,7 +3304,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (6)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -3890,7 +3974,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (7)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -3964,7 +4052,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (7)
+      value: Graduation Day!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -4260,7 +4352,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (22)
+      value: Taxes Due
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Taxes Due
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -4334,7 +4430,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (18)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -4556,7 +4656,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (12)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -4704,7 +4808,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow
+      value: Scholarship
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Collect 20k
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -4852,7 +4960,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (19)
+      value: Happy Honeymoon!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -4926,7 +5038,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1637884770153858, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
       propertyPath: m_Name
-      value: space_rect_grey (1)
+      value: Start Career
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637884770153858, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
+      propertyPath: m_TagString
+      value: Start Career
       objectReference: {fileID: 0}
     - target: {fileID: 4982982704200200, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
       propertyPath: m_LocalScale.x
@@ -4942,7 +5058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4982982704200200, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.82
+      value: -1.38
       objectReference: {fileID: 0}
     - target: {fileID: 4982982704200200, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4950,7 +5066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4982982704200200, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.21
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 4982982704200200, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5000,7 +5116,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (25)
+      value: Lose your job
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: New Career
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -5074,7 +5194,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1637884770153858, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
       propertyPath: m_Name
-      value: space_rect_grey
+      value: Start College
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637884770153858, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
+      propertyPath: m_TagString
+      value: Start College
       objectReference: {fileID: 0}
     - target: {fileID: 4982982704200200, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
       propertyPath: m_LocalScale.x
@@ -5098,7 +5222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4982982704200200, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.21
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 4982982704200200, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5222,7 +5346,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (2)
+      value: Inheritance
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Collect 10k
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -5238,7 +5366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.97
+      value: -2.58
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5370,7 +5498,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (11)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -5444,7 +5576,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (24)
+      value: Visit In-laws
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -5518,7 +5654,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1498889023777250, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
       propertyPath: m_Name
-      value: space_rect_blue
+      value: Night School
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498889023777250, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
+      propertyPath: m_TagString
+      value: Change Career & Salary Pay 20k
       objectReference: {fileID: 0}
     - target: {fileID: 4238037144770610, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
       propertyPath: m_LocalScale.x
@@ -5592,7 +5732,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (11)
+      value: Study for Exams
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Miss next turn
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -5814,7 +5958,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (5)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -5888,7 +6036,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (26)
+      value: Baby Boy!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Add a person and Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -6184,7 +6336,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (3)
+      value: Rent Apartment
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Pay 5k
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -6200,7 +6356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.97
+      value: -2.58
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6332,7 +6488,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (15)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -6480,7 +6640,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (12)
+      value: Study abroad
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -6702,7 +6866,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1576357879926818, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
       propertyPath: m_Name
-      value: space_rect_red (2)
+      value: May buy a House
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576357879926818, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
+      propertyPath: m_TagString
+      value: Draw Deed
       objectReference: {fileID: 0}
     - target: {fileID: 4358035448126146, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
       propertyPath: m_LocalScale.x
@@ -7072,7 +7240,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (16)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -7294,7 +7466,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (4)
+      value: Books & Supplies
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Pay 5k
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -7516,7 +7692,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (14)
+      value: Win Marathon!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Collect 10k
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -7738,7 +7918,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (8)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -7886,7 +8070,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (18)
+      value: Wedding Reception
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Pay 10k
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -8182,7 +8370,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (10)
+      value: Spring Break!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Pay 5k
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -8256,7 +8448,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (15)
+      value: Vist Museum
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -8404,7 +8600,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (20)
+      value: Attend Tech Seminar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: 'Tech Field: 10k'
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -8552,7 +8752,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (5)
+      value: Part time job
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Collect 5k
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -8626,7 +8830,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (23)
+      value: Win Lottery!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Collect 50k
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -8848,7 +9056,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x
@@ -8864,7 +9076,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.4
+      value: -1.97
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8872,7 +9084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.21
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8922,7 +9134,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_Name
-      value: space_rect_green (9)
+      value: Pay Day
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
+      propertyPath: m_TagString
+      value: Pay Day
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalScale.x

@@ -5,6 +5,31 @@ TagManager:
   serializedVersion: 2
   tags:
   - Spawnable
+  - Start College
+  - Start Career
+  - Pay Day
+  - Millionaire Estates
+  - Countryside Acres
+  - Career Choice
+  - Collect 20k
+  - Pay 5k
+  - Life Space
+  - Collect 10k
+  - Collect 5k
+  - Pay 5k if not insured
+  - Miss next turn
+  - Pay 15k if not insured
+  - Add a person
+  - Draw Deed
+  - Pay 10k
+  - 'Doctor Field: 5k'
+  - 'Tech Field: 10k'
+  - Pay 10k if not insured
+  - Change Career & Salary Pay 20k
+  - Taxes Due
+  - Collect 50k
+  - New Career
+  - Add a person and Life Space
   layers:
   - Default
   - TransparentFX
