@@ -19,7 +19,6 @@ TagManager:
   - Pay 5k if not insured
   - Miss next turn
   - Pay 15k if not insured
-  - Add a person
   - Draw Deed
   - Pay 10k
   - 'Doctor Field: 5k'
@@ -30,6 +29,10 @@ TagManager:
   - Collect 50k
   - New Career
   - Add a person and Life Space
+  - Add 2 people and Life Space
+  - 'Sports Field: 20k'
+  - 'Actor Field: 5k'
+  - Pay 40k if not insured
   layers:
   - Default
   - TransparentFX

@@ -342,7 +342,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (33)
+      value: Attend Hollywood Movie Premiere
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: 'Actor Field: 5k'
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -416,7 +420,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (30)
+      value: Twins!
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -642,7 +646,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (28)
+      value: Baby Girl!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Add a person and Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -1858,7 +1866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1576357879926818, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
       propertyPath: m_TagString
-      value: Add a person
+      value: Add a person and Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4358035448126146, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
       propertyPath: m_LocalScale.x
@@ -2470,7 +2478,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (31)
+      value: 50-yard line Seats
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: 'Sports Field: 20k'
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -4130,7 +4142,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (37)
+      value: Family Physicals
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: 'Doctor Field: 5k'
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -6114,7 +6130,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1498889023777250, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
       propertyPath: m_Name
-      value: space_rect_blue (1)
+      value: Trade Salay card with any player
       objectReference: {fileID: 0}
     - target: {fileID: 4238037144770610, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
       propertyPath: m_LocalScale.x
@@ -7166,7 +7182,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1639182053036022, guid: f4ae7a79b626ff74da01c51b4433d773, type: 3}
       propertyPath: m_Name
-      value: space_rect_purple
+      value: House Flooded
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639182053036022, guid: f4ae7a79b626ff74da01c51b4433d773, type: 3}
+      propertyPath: m_TagString
+      value: Pay 40k if not insured
       objectReference: {fileID: 0}
     - target: {fileID: 4508673751743100, guid: f4ae7a79b626ff74da01c51b4433d773, type: 3}
       propertyPath: m_LocalScale.x
@@ -7544,7 +7564,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (29)
+      value: Win Talent Show
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Collect 10k
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -8526,7 +8550,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (27)
+      value: Furnish Baby Room
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -9286,7 +9310,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (32)
+      value: Baby Girl
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Add a person and Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
