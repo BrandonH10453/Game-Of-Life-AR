@@ -1258,7 +1258,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (53)
+      value: Host police charity ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: 'Police Field: 15k'
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -2650,11 +2654,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: Donate computer network
+      value: Day Care
       objectReference: {fileID: 0}
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_TagString
-      value: 'Tech Field: 25k'
+      value: 'Education Field: 5k'
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -3204,7 +3208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.25
+      value: -4.24
       objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3866,7 +3870,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1639182053036022, guid: f4ae7a79b626ff74da01c51b4433d773, type: 3}
       propertyPath: m_Name
-      value: space_rect_purple (1)
+      value: Adopt Twins!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639182053036022, guid: f4ae7a79b626ff74da01c51b4433d773, type: 3}
+      propertyPath: m_TagString
+      value: Add 2 people and Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4508673751743100, guid: f4ae7a79b626ff74da01c51b4433d773, type: 3}
       propertyPath: m_LocalScale.x
@@ -3882,7 +3890,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4508673751743100, guid: f4ae7a79b626ff74da01c51b4433d773, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.29
+      value: -4.24
       objectReference: {fileID: 0}
     - target: {fileID: 4508673751743100, guid: f4ae7a79b626ff74da01c51b4433d773, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4938,7 +4946,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1576357879926818, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
       propertyPath: m_Name
-      value: space_rect_red (3)
+      value: You may sell your house and buy a new one
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576357879926818, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
+      propertyPath: m_TagString
+      value: Sell house, buy new one
       objectReference: {fileID: 0}
     - target: {fileID: 4358035448126146, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
       propertyPath: m_LocalScale.x
@@ -6248,7 +6260,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (50)
+      value: Find buried treasure!
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -6782,7 +6794,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (51)
+      value: Tax refunded
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Collect 75k
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x

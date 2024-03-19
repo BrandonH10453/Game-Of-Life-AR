@@ -37,6 +37,11 @@ TagManager:
   - 'Tech Field: 25k'
   - 'Art Field: 20k'
   - 'Sports Field: 25k'
+  - 'Education Field: 5k'
+  - Sell house, buy new one
+  - Collect 80k
+  - Collect 75k
+  - 'Police Field: 15k'
   layers:
   - Default
   - TransparentFX
