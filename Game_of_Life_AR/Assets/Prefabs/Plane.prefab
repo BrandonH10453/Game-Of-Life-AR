@@ -572,7 +572,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (44)
+      value: Buy luxury cruise online
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: 'Tech Field: 25k'
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -724,7 +728,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (45)
+      value: Art auction
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: 'Art Field: 20k'
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -1710,7 +1718,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (38)
+      value: Car Stolen!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Pay 15k if not insured
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -1940,7 +1952,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1498889023777250, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
       propertyPath: m_Name
-      value: space_rect_blue (2)
+      value: Trade Salary Card with any Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498889023777250, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
+      propertyPath: m_TagString
+      value: Trade Salary
       objectReference: {fileID: 0}
     - target: {fileID: 4238037144770610, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
       propertyPath: m_LocalScale.x
@@ -2634,7 +2650,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (48)
+      value: Donate computer network
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: 'Tech Field: 25k'
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -3542,7 +3562,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (47)
+      value: Tennis camp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: 'Sports Field: 25k'
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -3616,7 +3640,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1498889023777250, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
       propertyPath: m_Name
-      value: space_rect_blue (3)
+      value: Night School
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498889023777250, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
+      propertyPath: m_TagString
+      value: Change Career & Salary Pay 20k
       objectReference: {fileID: 0}
     - target: {fileID: 4238037144770610, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
       propertyPath: m_LocalScale.x
@@ -4294,7 +4322,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (43)
+      value: Baby Boy!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Add a person and Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -4524,7 +4556,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (39)
+      value: Baby Boy!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Add a person and Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -5900,7 +5936,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (42)
+      value: Vote!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -6130,7 +6170,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1498889023777250, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
       propertyPath: m_Name
-      value: Trade Salay card with any player
+      value: Trade Salay Card with any Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498889023777250, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
+      propertyPath: m_TagString
+      value: Trade Salary
       objectReference: {fileID: 0}
     - target: {fileID: 4238037144770610, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
       propertyPath: m_LocalScale.x
@@ -6582,7 +6626,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (41)
+      value: Run for Mayor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Life Space
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -7034,7 +7082,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (46)
+      value: Taxes Due
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Taxes Due
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
@@ -9236,7 +9288,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_Name
-      value: space_rect_yellow (40)
+      value: Tree falls on House
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
+      propertyPath: m_TagString
+      value: Pay 15k if not insured
       objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalScale.x
