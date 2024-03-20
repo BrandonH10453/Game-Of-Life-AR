@@ -61,6 +61,7 @@ TagManager:
   - 'Designer Field: 5k'
   - 'Designer Field: 30k'
   - 'Designer Field: 25k'
+  - Retire
   layers:
   - Default
   - TransparentFX
