@@ -23,7 +23,6 @@ TagManager:
   - Pay 10k
   - 'Doctor Field: 5k'
   - 'Tech Field: 10k'
-  - Pay 10k if not insured
   - Change Career & Salary Pay 20k
   - Taxes Due
   - Collect 50k
@@ -42,6 +41,27 @@ TagManager:
   - Collect 80k
   - Collect 75k
   - 'Police Field: 15k'
+  - 'Art Field: 15k'
+  - 'Actor Field: 15k'
+  - 'Art Field: 25k'
+  - Collect 95k
+  - 'Education Field: 5k per child'
+  - Return 1 stock
+  - Collect 100k
+  - 'Sports Field: 30k'
+  - Pay 125k if not insured
+  - 'Doctor Field: 25k'
+  - Start new career
+  - 'Actor Field: 100k'
+  - 'Doctor Field: 100k'
+  - 'Education Field: 50k per child'
+  - Pay 50k if not insured
+  - 'Art Field: 125k'
+  - 'Sports Field: 65k'
+  - Collect 20k times spin
+  - 'Designer Field: 5k'
+  - 'Designer Field: 30k'
+  - 'Designer Field: 25k'
   layers:
   - Default
   - TransparentFX
