@@ -508,7 +508,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1775997201}
         m_TargetAssemblyTypeName: ObjectSpawner, Assembly-CSharp
-        m_MethodName: SetPlayerPiecePrefab
+        m_MethodName: SetPlayer2PiecePrefab
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2161,7 +2161,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1775997201}
         m_TargetAssemblyTypeName: ObjectSpawner, Assembly-CSharp
-        m_MethodName: SetPlayerPiecePrefab
+        m_MethodName: SetPlayer1PiecePrefab
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2799,9 +2799,11 @@ MonoBehaviour:
   aRRaycastManager: {fileID: 1775997199}
   spawnablePrefab: {fileID: 1693677709709504603, guid: 3717b52f21142944eae082fc0d70bd82, type: 3}
   Board: {fileID: 1693677709709504603, guid: 3717b52f21142944eae082fc0d70bd82, type: 3}
-  PlayerPiece: {fileID: 1990493805405916, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+  Player1Piece: {fileID: 1990493805405916, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+  Player2Piece: {fileID: 1797155887212042, guid: 285b36fd7bddf8d4bb07598e935a78aa, type: 3}
   BoardButton: {fileID: 1641684536}
-  PlayerButton: {fileID: 1564156695}
+  Player1Button: {fileID: 1564156695}
+  Player2Button: {fileID: 206406015}
 --- !u!1 &1894243117
 GameObject:
   m_ObjectHideFlags: 0

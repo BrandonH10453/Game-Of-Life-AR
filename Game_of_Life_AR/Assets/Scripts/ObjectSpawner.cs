@@ -9,9 +9,11 @@ public class ObjectSpawner : MonoBehaviour
     [SerializeField] ARRaycastManager aRRaycastManager;
     [SerializeField] GameObject spawnablePrefab;
     [SerializeField] GameObject Board;
-    [SerializeField] GameObject PlayerPiece;
+    [SerializeField] GameObject Player1Piece;
+    [SerializeField] GameObject Player2Piece;
     [SerializeField] Button BoardButton;
-    [SerializeField] Button PlayerButton;
+    [SerializeField] Button Player1Button;
+    [SerializeField] Button Player2Button;
 
     List<ARRaycastHit> hits = new List<ARRaycastHit>();
     Camera arCamera;
@@ -53,9 +55,11 @@ public class ObjectSpawner : MonoBehaviour
 
                             // Hide the button once object is spawned
                             if (spawnablePrefab == Board)
-                                BoardButton.gameObject.SetActive(false);
-                            else if (spawnablePrefab == PlayerPiece)
-                                PlayerButton.gameObject.SetActive(false);
+                            BoardButton.gameObject.SetActive(false);
+                            else if (spawnablePrefab == Player1Piece)
+                            Player1Button.gameObject.SetActive(false);
+                            else if (spawnablePrefab == Player2Piece)
+                            Player2Button.gameObject.SetActive(false);
                         }
                     }
                 }
@@ -84,11 +88,19 @@ public class ObjectSpawner : MonoBehaviour
         BoardButton.gameObject.SetActive(false);
     }
 
-    // Method to set the spawnablePrefab to PlayerPiece prefab
-    public void SetPlayerPiecePrefab()
+    // Method to set the spawnablePrefab to Player1Piece prefab
+    public void SetPlayer1PiecePrefab()
     {
-        spawnablePrefab = PlayerPiece;
+        spawnablePrefab = Player1Piece;
         objectSpawned = false;
-        PlayerButton.gameObject.SetActive(false);
+        Player1Button.gameObject.SetActive(false);
+    }
+
+    // Method to set the spawnablePrefab to Player2Piece prefab
+    public void SetPlayer2PiecePrefab()
+    {
+        spawnablePrefab = Player2Piece;
+        objectSpawned = false;
+        Player2Button.gameObject.SetActive(false);
     }
 }
