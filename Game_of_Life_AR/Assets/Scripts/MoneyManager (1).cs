@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +9,8 @@ public class MoneyManager : MonoBehaviour
     public Text careerText;
     Hashtable careerSalary = new Hashtable();
     Hashtable careerTaxes = new Hashtable();
-    string[] careerList = { "Doctor", "IT", "Teacher", "Accountant", "Police Officer", "Designer", "Artist", "Athlete", "Actor" };
+    string[] careerDegreeList = { "Doctor", "IT", "Teacher", "Accountant"};
+    string[] careerNondegreeList = {"Police Officer", "Designer", "Artist", "Athlete", "Actor"};
 
     int money = 0;
     string career = "Doctor";
@@ -26,15 +26,25 @@ public class MoneyManager : MonoBehaviour
     void Start()
     {
         moneyText.text = "$" + money.ToString();
-        careerSalary.Add("Astronaut", 100000);
-        careerSalary.Add("Investor", 90000);
-        careerSalary.Add("Dog Walker", 30000);
-        careerSalary.Add("Unemployed", 1);
+        careerSalary.Add("Doctor", 80000);
+        careerSalary.Add("IT", 70000);
+        careerSalary.Add("Teacher", 50000);
+        careerSalary.Add("Accountant", 60000);
+        careerSalary.Add("Police Officer", 60000);
+        careerSalary.Add("Designer", 40000);
+        careerSalary.Add("Artist", 40000);
+        careerSalary.Add("Athlete", 50000);
+        careerSalary.Add("Actor", 40000);
 
-        careerTaxes.Add("Astronaut", 10000);
-        careerTaxes.Add("Investor", 9000);
-        careerTaxes.Add("Dog Walker", 3000);
-        careerTaxes.Add("Unemployed", 0);
+        careerTaxes.Add("Doctor", 35000);
+        careerTaxes.Add("IT", 30000);
+        careerTaxes.Add("Teacher", 20000);
+        careerTaxes.Add("Accountant", 0);
+        careerTaxes.Add("Police Officer", 25000);
+        careerTaxes.Add("Designer", 15000);
+        careerTaxes.Add("Artist", 15000);
+        careerTaxes.Add("Athlete", 20000);
+        careerTaxes.Add("Actor", 15000);
 
         // Initially set the confirmation button to inactive
         confirmButton.SetActive(false);
