@@ -160,6 +160,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.Game_of_Life_AR
+    Standalone: com.DefaultCompany.Game-of-Life-AR
     iPhone: com.DefaultCompany.Game-of-Life-AR
   buildNumber:
     Standalone: 0
