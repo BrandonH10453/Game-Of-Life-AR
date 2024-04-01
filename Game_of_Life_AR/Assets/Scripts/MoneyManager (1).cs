@@ -54,7 +54,25 @@ public class MoneyManager : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         // Check if the collided object has one of the tags
-        if (collision.gameObject.tag == "Collect" || collision.gameObject.tag == "Pay" /* add the rest of your tags here */)
+        if (collision.gameObject.tag == "Collect 20k" || collision.gameObject.tag == "Collect 10k" || collision.gameObject.tag == "Collect 5k" ||
+            collision.gameObject.tag == "Collect 75k" || collision.gameObject.tag == "Collect 80k" || collision.gameObject.tag == "Collect 50k"||
+            collision.gameObject.tag == "Collect 95k" || collision.gameObject.tag == "Collect 100k"|| collision.gameObject.tag == "Pay 5k" ||
+            collision.gameObject.tag == "Pay 10k" || collision.gameObject.tag == "Start College" || collision.gameObject.tag == "Start Career" ||
+            collision.gameObject.tag == "Pay Day" || collision.gameObject.tag == "Millionaire Estates" || collision.gameObject.tag == "Countryside Acres" ||
+            collision.gameObject.tag == "Career Choice" || collision.gameObject.tag == "Life Space" || collision.gameObject.tag == "Pay 5k if not insured"||
+            collision.gameObject.tag == "Miss next turn"|| collision.gameObject.tag == "Pay 15k if not insured" || collision.gameObject.tag == "Draw Deed"||
+            collision.gameObject.tag == "Doctor Field: 5k" || collision.gameObject.tag == "Tech Field: 10k" || collision.gameObject.tag == "Change Career Salary Pay 20k"||
+            collision.gameObject.tag == "Taxes Due" || collision.gameObject.tag == "New Career" || collision.gameObject.tag == "Add a person and Life Space"||
+            collision.gameObject.tag == "Add 2 people and Life Space" || collision.gameObject.tag == "Sports Field: 20k" || collision.gameObject.tag == "Actor Field: 5k"||
+            collision.gameObject.tag == "Pay 40k if not insured" || collision.gameObject.tag == "Trade Salary" || collision.gameObject.tag == "Tech Field: 25k"||
+            collision.gameObject.tag == "Art Field: 20k" || collision.gameObject.tag == "Sports Field: 25k" || collision.gameObject.tag == "Education Field: 5k"||
+            collision.gameObject.tag == "Sell house, buy new one" || collision.gameObject.tag == "Police Field: 15k" || collision.gameObject.tag == "Art Field: 15k"||
+            collision.gameObject.tag == "Actor Field: 15k" || collision.gameObject.tag == "Art Field: 25k" || collision.gameObject.tag == "Education Field: 5k per child"||
+            collision.gameObject.tag == "Return 1 stock" || collision.gameObject.tag == "Sport Field: 30k" || collision.gameObject.tag == "Pay 125k if not insured"||
+            collision.gameObject.tag == "Doctor Field: 25k" || collision.gameObject.tag == "Actor Field: 100k" || collision.gameObject.tag == "Education Field: 50k per child"||
+            collision.gameObject.tag == "Pay 50k if not insured" || collision.gameObject.tag == "Art Field: 125k" || collision.gameObject.tag == "Sports Field: 65k"||
+            collision.gameObject.tag == "Collect 20k times spin" || collision.gameObject.tag == "Designer Field: 5k" || collision.gameObject.tag == "Designer Field: 30k"||
+            collision.gameObject.tag == "Designer Field: 25k" || collision.gameObject.tag == "Retire")
         {
             // If the player collides with a tile, activate the confirmation button
             confirmButton.SetActive(true);
@@ -67,23 +85,116 @@ public class MoneyManager : MonoBehaviour
         // Perform the task associated with the tile
         switch (tag)
         {
-            case "Collect":
-                CollectMoney(1000);  // replace 1000 with the amount to collect
+            case "Collect 20k":
+                Collect20k(20000);
                 break;
-            case "Pay":
-                PayMoney(1000);  // replace 1000 with the amount to pay
+            case "Collect 10k":
+                Collect10k(10000);
+                break;
+            case "Collect 5k":
+                Collect5k(5000);
+                break;
+            case "Collect 75k":
+                Collect75k(75000);
+                break;
+            case "Collect 50k":
+                Collect50k(50000);
+                break;
+            case "Collect 80k":
+                Collect80k(80000);
+                break;
+            case "Collect 95k":
+                Collect95k(95000);
+                break;
+            case "Collect 100k":
+                Collect100k(100000);
+                break;
+            case "Pay 5k":
+                Pay5k(5000);
+                break;
+            case "Pay 10k":
+                Pay10k(10000);
                 break;
             case "Life Space":
                 PickUpLifeTile();
                 break;
-            case "Pay ?k if not insured":
-                PayIfNotInsured(1000);  // replace 1000 with the amount to pay if not insured
+            case "Pay 5k if not insured":
+                Pay5kIfNotInsured(5000);
+                break;
+            case "Pay 15k if not insured":
+                Pay15kIfNotInsured(15000);
+                break;
+            case "Pay 40k if not insured":
+                Pay40kIfNotInsured(40000);
+                break;
+            case "Pay 50k if not insured":
+                Pay50kIfNotInsured(50000);
+                break;
+            case "Pay 125k if not insured":
+                Pay125kIfNotInsured(125000);
                 break;
             case "Miss next turn":
                 MissNextTurn();
                 break;
-            case "Career Field: ?k":
-                CareerField(1000);  // replace 1000 with the amount for the career field
+            case "Doctor Field: 5k":
+                DoctorField5k(5000);
+                break;
+            case "Doctor Field: 25k":
+                DoctorField25k(25000);
+                break;
+            case "Doctor Field: 100k":
+                DoctorField100k(100000);
+                break;
+            case "Tech Field: 10k":
+                TechField10k(10000);
+                break;
+            case "Tech Field: 25k":
+                TechField25k(25000);
+                break;
+            case "Sports Field: 20k":
+                SportsField20k(20000);
+                break;
+            case "Sports Field: 25k":
+                SportsField25k(25000);
+                break;
+            case "Sports Field: 30k":
+                SportsField30k(30000);
+                break;
+            case "Sports Field: 65k":
+                SportsField65k(65000);
+                break;
+            case "Actor Field: 5k":
+                ActorField5k(5000);
+                break;
+            case "Actor Field: 15k":
+                ActorField15k(15000);
+                break;
+            case "Actor Field: 100k":
+                ActorField100k(100000);
+                break;
+            case "Art Field: 15k":
+                ArtField15k(15000);
+                break;
+            case "Art Field: 20k":
+                ArtField20k(20000);
+                break;
+            case "Art Field: 25k":
+                ArtField25k(25000);
+                break;
+            case "Art Field: 125k":
+                ArtField125k(125000);
+                break;
+            case "Police Field: 15k":
+                PoliceField15k(15000);
+                break;
+            case "Designer Field: 5k":
+                DesignerField5k(5000);
+                break;
+            case "Designer Field: 25k":
+                DesignerField25k(25000);
+                break;
+            case "Designer Field: 30k":
+                DesignerField30k(30000);
                 break;
             case "Return 1 stock":
                 ReturnStock();
@@ -106,11 +217,14 @@ public class MoneyManager : MonoBehaviour
             case "Twins!":
                 Twins();
                 break;
-            case "Collect ?k times spin":
-                CollectMoneyTimesSpin(1000);  // replace 1000 with the amount to collect times spin
+            case "Collect 20k times spin":
+                CollectMoneyTimesSpin(20000);
                 break;
-            case "Education Field - ?k per child":
-                EducationField(1000);  // replace 1000 with the amount for the education field per child
+            case "Education Field: 5k per child":
+                EducationField5k(5000);
+                break;
+            case "Education Field: 50k per child":
+                EducationField50k(50000);
                 break;
             case "Start College":
                 StartCollege();
@@ -155,83 +269,205 @@ public class MoneyManager : MonoBehaviour
     }
 
     // Add the rest of your functions here...
-    public void CollectMoney(int amount)
+    public void Collect20k(int amount)
     {
         money += amount;
         moneyText.text = "$" + money.ToString();
     }
-
-    public void PayMoney(int amount)
+    public void Collect10k(int amount)
+    {
+        money += amount;
+        moneyText.text = "$" + money.ToString();
+    }
+    public void Collect5k(int amount)
+    {
+        money += amount;
+        moneyText.text = "$" + money.ToString();
+    }
+    public void Collect50k(int amount)
+    {
+        money += amount;
+        moneyText.text = "$" + money.ToString();
+    }
+    public void Collect75k(int amount)
+    {
+        money += amount;
+        moneyText.text = "$" + money.ToString();
+    }
+    public void Collect80k(int amount)
+    {
+        money += amount;
+        moneyText.text = "$" + money.ToString();
+    }
+     public void Collect95k(int amount)
+    {
+        money += amount;
+        moneyText.text = "$" + money.ToString();
+    }
+     public void Collect100k(int amount)
+    {
+        money += amount;
+        moneyText.text = "$" + money.ToString();
+    }
+    public void Pay5k(int amount)
     {
         money -= amount;
         moneyText.text = "$" + money.ToString();
     }
-
+    public void Pay10k(int amount)
+    {
+        money -= amount;
+        moneyText.text = "$" + money.ToString();
+    }
     public void PickUpLifeTile()
     {
         // Add your implementation here
     }
-
-    public void PayIfNotInsured(int amount)
+    public void Pay5kIfNotInsured(int amount)
     {
         // Add your implementation here
     }
-
+    public void Pay15kIfNotInsured(int amount)
+    {
+        // Add your implementation here
+    }
+    public void Pay40kIfNotInsured(int amount)
+    {
+        // Add your implementation here
+    }
+    public void Pay50kIfNotInsured(int amount)
+    {
+        // Add your implementation here
+    }
+    public void Pay125kIfNotInsured(int amount)
+    {
+        // Add your implementation here
+    }
     public void MissNextTurn()
     {
         // Add your implementation here
     }
 
-    public void CareerField(int amount)
+    public void DoctorField5k(int amount)
     {
         // Add your implementation here
     }
-
+    public void DoctorField25k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void DoctorField100k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void TechField10k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void TechField25k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void SportsField20k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void SportsField25k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void SportsField30k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void SportsField65k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void ActorField5k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void ActorField15k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void ActorField100k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void ArtField15k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void ArtField20k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void ArtField25k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void ArtField125k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void PoliceField15k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void DesignerField5k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void DesignerField25k(int amount)
+    {
+        // Add your implementation here
+    }
+    public void DesignerField30k(int amount)
+    {
+        // Add your implementation here
+    }
     public void ReturnStock()
     {
         // Add your implementation here
     }
-
     public void TaxesDue()
     {
         // Add your implementation here
     }
-
     public void LoseJob()
     {
         // Add your implementation here
     }
-
     public void BabyBoy()
     {
         // Add your implementation here
     }
-
     public void BabyGirl()
     {
         // Add your implementation here
     }
-
     public void GetMarried()
     {
         // Add your implementation here
     }
-
     public void Twins()
     {
         // Add your implementation here
     }
-
     public void CollectMoneyTimesSpin(int amount)
     {
         // Add your implementation here
     }
-
-    public void EducationField(int amount)
+    public void EducationField5k(int amount)
     {
         // Add your implementation here
     }
-
+    public void EducationField50k(int amount)
+    {
+        // Add your implementation here
+    }
     public void StartCollege()
     {
         // Add your implementation here
