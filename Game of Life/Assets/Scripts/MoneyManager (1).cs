@@ -7,6 +7,11 @@ public class MoneyManager : MonoBehaviour
     public static MoneyManager instance;
     public Text moneyText;
     public Text careerText;
+    public Text TaxText;
+    public Text MarriageText;
+    public Text ChildrenText;
+    public Text InsuranceText;
+    public Text StockText;
     Hashtable careerSalary = new Hashtable();
     Hashtable careerTaxes = new Hashtable();
     string[] careerDegreeList = { "Doctor", "IT", "Teacher", "Accountant"};
@@ -272,52 +277,52 @@ public class MoneyManager : MonoBehaviour
     public void Collect20k(int amount)
     {
         money += amount;
-        moneyText.text = "$" + money.ToString();
+        moneyText.text = "Cash: $" + money.ToString();
     }
     public void Collect10k(int amount)
     {
         money += amount;
-        moneyText.text = "$" + money.ToString();
+        moneyText.text = "Cash: $" + money.ToString();
     }
     public void Collect5k(int amount)
     {
         money += amount;
-        moneyText.text = "$" + money.ToString();
+        moneyText.text = "Cash: $" + money.ToString();
     }
     public void Collect50k(int amount)
     {
         money += amount;
-        moneyText.text = "$" + money.ToString();
+        moneyText.text = "Cash: $" + money.ToString();
     }
     public void Collect75k(int amount)
     {
         money += amount;
-        moneyText.text = "$" + money.ToString();
+        moneyText.text = "Cash: $" + money.ToString();
     }
     public void Collect80k(int amount)
     {
         money += amount;
-        moneyText.text = "$" + money.ToString();
+        moneyText.text = "Cash: $" + money.ToString();
     }
      public void Collect95k(int amount)
     {
         money += amount;
-        moneyText.text = "$" + money.ToString();
+        moneyText.text = "Cash: $" + money.ToString();
     }
      public void Collect100k(int amount)
     {
         money += amount;
-        moneyText.text = "$" + money.ToString();
+        moneyText.text = "Cash: $" + money.ToString();
     }
     public void Pay5k(int amount)
     {
         money -= amount;
-        moneyText.text = "$" + money.ToString();
+        moneyText.text = "Cash: $" + money.ToString();
     }
     public void Pay10k(int amount)
     {
         money -= amount;
-        moneyText.text = "$" + money.ToString();
+        moneyText.text = "Cash: $" + money.ToString();
     }
     public void PickUpLifeTile()
     {
