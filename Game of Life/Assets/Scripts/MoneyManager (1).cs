@@ -17,13 +17,106 @@ public class MoneyManager : MonoBehaviour
     Hashtable careerTaxes = new Hashtable();
     string[] careerDegreeList = { "Doctor", "IT", "Teacher", "Accountant"};
     string[] careerNondegreeList = {"Police Officer", "Designer", "Artist", "Athlete", "Actor"};
+    bool playerFlag = true;
+    playerInfo player1 = new playerInfo(0, 0, 0, "single", "unemployed");
+    playerInfo player2 = new playerInfo(0, 0, 0, "single", "unemployed");
 
-    int money = 0;
-    int children = 0;
-    int Lifetile = 0;
-    string married = "Single";
-    string career = "Doctor";
+    public class playerInfo
+    {
+        // Default constructor
+        public playerInfo() { }
 
+        // Constructor
+        public playerInfo(int money, int children, int lifeTile, string married, string career)
+        {
+            this.money = money;
+            this.children = children;
+            this.lifeTile = lifeTile;
+            this.married = married;
+            this.career = career;
+        }
+
+        // Sets and Gets
+        public int getMoney()
+        {
+            return (money);
+        }
+
+        public int getlifeTile()
+        {
+            return (lifeTile);
+        }
+
+        public int getChildren()
+        {
+            return (children);
+        }
+
+        public string getCareer()
+        {
+            return (career);
+        }
+
+        public string getMarried()
+        {
+            return (married);
+        }
+
+        public void setMoney(int value)
+        {
+            this.money = value;
+        }
+
+        public void setlifeTile(int value)
+        {
+            this.lifeTile = value;
+        }
+
+        public void setChildren(int value)
+        {
+            this.children = value;
+        }
+
+        public void setMarried(string value)
+        {
+            this.married = value;
+        }
+
+        public void setCareer(string value)
+        {
+            this.career = value;
+        }
+
+        // Properties for the playerInfo Class
+        string married;
+        string career;
+        int money;
+        int children;
+        int lifeTile;
+    }
+
+    public void playerSwitch()
+    {
+        if (playerFlag)
+        {
+            playerFlag = false;
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+            ChildrenText.text = "Children: " + player2.getChildren().ToString();
+            LifeTileText.text = "Life Tile: " + player2.getlifeTile().ToString();
+            MarriageText.text = "Married: " + player2.getMarried().ToString();
+            careerText.text = "Career: " + player2.getCareer().ToString();
+        }
+        else
+        {
+            playerFlag = true;
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+            ChildrenText.text = "Children: " + player1.getChildren().ToString();
+            LifeTileText.text = "Life Tile: " + player1.getlifeTile().ToString();
+            MarriageText.text = "Married: " + player1.getMarried().ToString();
+            careerText.text = "Career: " + player1.getCareer().ToString();
+        }
+    }
+  
     // Add a public GameObject for the confirmation button
     public GameObject confirmButton;
 
@@ -34,9 +127,11 @@ public class MoneyManager : MonoBehaviour
 
     void Start()
     {
-        moneyText.text = "Cash: $" + money.ToString();
-        ChildrenText.text = "Children: " + children.ToString();
-        LifeTileText.text = "Life Tile: " + Lifetile.ToString();
+        moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        ChildrenText.text = "Children: " + player1.getChildren().ToString();
+        LifeTileText.text = "Life Tile: " + player1.getlifeTile().ToString();
+        MarriageText.text = "Married: " + player1.getMarried().ToString();
+        careerText.text = "Career: " + player1.getCareer().ToString();
         careerSalary.Add("Doctor", 80000);
         careerSalary.Add("IT", 70000);
         careerSalary.Add("Teacher", 50000);
@@ -97,37 +192,37 @@ public class MoneyManager : MonoBehaviour
         switch (tag)
         {
             case "Collect 20k":
-                Collect20k(20000);
+                Collect20k(20000, playerFlag);
                 break;
             case "Collect 10k":
-                Collect10k(10000);
+                Collect10k(10000, playerFlag);
                 break;
             case "Collect 5k":
-                Collect5k(5000);
+                Collect5k(5000, playerFlag);
                 break;
             case "Collect 75k":
-                Collect75k(75000);
+                Collect75k(75000, playerFlag);
                 break;
             case "Collect 50k":
-                Collect50k(50000);
+                Collect50k(50000, playerFlag);
                 break;
             case "Collect 80k":
-                Collect80k(80000);
+                Collect80k(80000, playerFlag);
                 break;
             case "Collect 95k":
-                Collect95k(95000);
+                Collect95k(95000, playerFlag);
                 break;
             case "Collect 100k":
-                Collect100k(100000);
+                Collect100k(100000, playerFlag);
                 break;
             case "Pay 5k":
-                Pay5k(5000);
+                Pay5k(5000, playerFlag);
                 break;
             case "Pay 10k":
-                Pay10k(10000);
+                Pay10k(10000, playerFlag);
                 break;
             case "Life Space":
-                PickUpLifeTile(1);
+                PickUpLifeTile(1, playerFlag);
                 break;
             case "Pay 5k if not insured":
                 Pay5kIfNotInsured(5000);
@@ -274,60 +369,148 @@ public class MoneyManager : MonoBehaviour
     }
 
     // Add the rest of your functions here...
-    public void Collect20k(int amount)
+    public void Collect20k(int amount, bool flag)
     {
-        money += amount;
-        moneyText.text = "Cash: $" + money.ToString();
+        if (flag)
+        {
+            player1.setMoney(player1.getMoney() + amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() + amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
-    public void Collect10k(int amount)
+    public void Collect10k(int amount, bool flag)
     {
-        money += amount;
-        moneyText.text = "Cash: $" + money.ToString();
+        if (flag)
+        {
+            player1.setMoney(player1.getMoney() + amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() + amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
-    public void Collect5k(int amount)
+    public void Collect5k(int amount, bool flag)
     {
-        money += amount;
-        moneyText.text = "Cash: $" + money.ToString();
+        if (flag)
+        {
+            player1.setMoney(player1.getMoney() + amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() + amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
-    public void Collect50k(int amount)
+    public void Collect50k(int amount, bool flag)
     {
-        money += amount;
-        moneyText.text = "Cash: $" + money.ToString();
+        if (flag)
+        {
+            player1.setMoney(player1.getMoney() + amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() + amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
-    public void Collect75k(int amount)
+    public void Collect75k(int amount, bool flag)
     {
-        money += amount;
-        moneyText.text = "Cash: $" + money.ToString();
+        if (flag)
+        {
+            player1.setMoney(player1.getMoney() + amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() + amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
-    public void Collect80k(int amount)
+    public void Collect80k(int amount, bool flag)
     {
-        money += amount;
-        moneyText.text = "Cash: $" + money.ToString();
+        if (flag)
+        {
+            player1.setMoney(player1.getMoney() + amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() + amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
-     public void Collect95k(int amount)
+     public void Collect95k(int amount, bool flag)
     {
-        money += amount;
-        moneyText.text = "Cash: $" + money.ToString();
+        if (flag)
+        {
+            player1.setMoney(player1.getMoney() + amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() + amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
-     public void Collect100k(int amount)
+     public void Collect100k(int amount, bool flag)
     {
-        money += amount;
-        moneyText.text = "Cash: $" + money.ToString();
+        if (flag)
+        {
+            player1.setMoney(player1.getMoney() + amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() + amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
-    public void Pay5k(int amount)
+    public void Pay5k(int amount, bool flag)
     {
-        money -= amount;
-        moneyText.text = "Cash: $" + money.ToString();
+        if (flag)
+        {
+            player1.setMoney(player1.getMoney() - amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() - amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
-    public void Pay10k(int amount)
+    public void Pay10k(int amount, bool flag)
     {
-        money -= amount;
-        moneyText.text = "Cash: $" + money.ToString();
+        if (flag)
+        {
+            player1.setMoney(player1.getMoney() - amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() - amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
-    public void PickUpLifeTile(int tile)
+    public void PickUpLifeTile(int tile, bool flag)
     {
-        Lifetile += tile;
-        LifeTileText.text = "Life Tile: " + Lifetile.ToString();
+        if (flag)
+        {
+            player1.setlifeTile(player1.getlifeTile() + tile);
+            LifeTileText.text = "Life Tile: " + player1.getlifeTile().ToString();
+        }
+        else
+        {
+            player1.setlifeTile(player2.getlifeTile() + tile);
+            LifeTileText.text = "Life Tile: " + player2.getlifeTile().ToString();
+        }
     }
     public void Pay5kIfNotInsured(int amount)
     {
@@ -444,10 +627,7 @@ public class MoneyManager : MonoBehaviour
     }
     public void AddChild(int child, int tile)
     {
-        children += child;
-        Lifetile += tile;
-        ChildrenText.text = "Children: " + children.ToString();
-        LifeTileText.text = "Life Tile: " + Lifetile.ToString();
+
     }
     public void GetMarried()
     {
@@ -455,10 +635,7 @@ public class MoneyManager : MonoBehaviour
     }
     public void Twins(int child, int tile)
     {
-        children += child;
-        Lifetile += tile;
-        ChildrenText.text = "Children: " + children.ToString();
-        LifeTileText.text = "Life Tile: " + Lifetile.ToString();
+       
     }
     public void CollectMoneyTimesSpin(int amount)
     {
@@ -474,8 +651,7 @@ public class MoneyManager : MonoBehaviour
     }
     public void StartCollege(int amount)
     {
-        money -= amount;
-        moneyText.text = "Cash: $" + money.ToString();
+       
     }
 
     public void StartCareer()
