@@ -73,7 +73,7 @@ public class MoneyManager : MonoBehaviour
             collision.gameObject.tag == "Art Field: 20k" || collision.gameObject.tag == "Sports Field: 25k" || collision.gameObject.tag == "Education Field: 5k"||
             collision.gameObject.tag == "Sell house, buy new one" || collision.gameObject.tag == "Police Field: 15k" || collision.gameObject.tag == "Art Field: 15k"||
             collision.gameObject.tag == "Actor Field: 15k" || collision.gameObject.tag == "Art Field: 25k" || collision.gameObject.tag == "Education Field: 5k per child"||
-            collision.gameObject.tag == "Return 1 stock" || collision.gameObject.tag == "Sport Field: 30k" || collision.gameObject.tag == "Pay 125k if not insured"||
+            collision.gameObject.tag == "Sport Field: 30k" || collision.gameObject.tag == "Pay 125k if not insured"||
             collision.gameObject.tag == "Doctor Field: 25k" || collision.gameObject.tag == "Actor Field: 100k" || collision.gameObject.tag == "Education Field: 50k per child"||
             collision.gameObject.tag == "Pay 50k if not insured" || collision.gameObject.tag == "Art Field: 125k" || collision.gameObject.tag == "Sports Field: 65k"||
             collision.gameObject.tag == "Collect 20k times spin" || collision.gameObject.tag == "Designer Field: 5k" || collision.gameObject.tag == "Designer Field: 30k"||
@@ -200,9 +200,6 @@ public class MoneyManager : MonoBehaviour
                 break;
             case "Designer Field: 30k":
                 DesignerField30k(30000);
-                break;
-            case "Return 1 stock":
-                ReturnStock();
                 break;
             case "Taxes Due":
                 TaxesDue();
@@ -430,10 +427,6 @@ public class MoneyManager : MonoBehaviour
         // Add your implementation here
     }
     public void DesignerField30k(int amount)
-    {
-        // Add your implementation here
-    }
-    public void ReturnStock()
     {
         // Add your implementation here
     }
