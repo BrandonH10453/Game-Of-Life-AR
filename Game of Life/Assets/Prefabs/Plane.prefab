@@ -266,22 +266,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pay Day
       objectReference: {fileID: 0}
-    - target: {fileID: 1062260613428564, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
-      propertyPath: m_TagString
-      value: Pay Day
-      objectReference: {fileID: 0}
-    - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 4420309013816914, guid: 96fe280f77cbc1c489a8de3e49e64096, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.27
@@ -1514,22 +1498,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Countryside Acres
       objectReference: {fileID: 0}
-    - target: {fileID: 1447692505535718, guid: 641c2f236a501f3428f2b0e3ffb99bef, type: 3}
-      propertyPath: m_TagString
-      value: Countryside Acres
-      objectReference: {fileID: 0}
-    - target: {fileID: 4328833019147686, guid: 641c2f236a501f3428f2b0e3ffb99bef, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4328833019147686, guid: 641c2f236a501f3428f2b0e3ffb99bef, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4328833019147686, guid: 641c2f236a501f3428f2b0e3ffb99bef, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 4328833019147686, guid: 641c2f236a501f3428f2b0e3ffb99bef, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.39
@@ -2137,22 +2105,6 @@ PrefabInstance:
     - target: {fileID: 1576357879926818, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
       propertyPath: m_Name
       value: Career Choice
-      objectReference: {fileID: 0}
-    - target: {fileID: 1576357879926818, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
-      propertyPath: m_TagString
-      value: Career Choice
-      objectReference: {fileID: 0}
-    - target: {fileID: 4358035448126146, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4358035448126146, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4358035448126146, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4358035448126146, guid: a0008fdd5fa6a694faaf115048ba525a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4946,22 +4898,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scholarship
       objectReference: {fileID: 0}
-    - target: {fileID: 1022450485705224, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
-      propertyPath: m_TagString
-      value: Collect 20k
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 4841616463019782, guid: 6597be98ec7971b4394c591e469dd743, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.39
@@ -5335,22 +5271,6 @@ PrefabInstance:
     - target: {fileID: 1637884770153858, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
       propertyPath: m_Name
       value: Start College
-      objectReference: {fileID: 0}
-    - target: {fileID: 1637884770153858, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
-      propertyPath: m_TagString
-      value: Start College
-      objectReference: {fileID: 0}
-    - target: {fileID: 4982982704200200, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4982982704200200, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4982982704200200, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4982982704200200, guid: b8edb1a5c7f868641ac13661f4492fc9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5803,22 +5723,6 @@ PrefabInstance:
     - target: {fileID: 1498889023777250, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
       propertyPath: m_Name
       value: Night School
-      objectReference: {fileID: 0}
-    - target: {fileID: 1498889023777250, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
-      propertyPath: m_TagString
-      value: Change Career & Salary Pay 20k
-      objectReference: {fileID: 0}
-    - target: {fileID: 4238037144770610, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4238037144770610, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4238037144770610, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4238037144770610, guid: aee5333d95634824abd2f63207ce2f9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7423,13 +7327,43 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1639182053036022, guid: f4ae7a79b626ff74da01c51b4433d773, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7139073933120944708}
   m_SourcePrefab: {fileID: 100100000, guid: f4ae7a79b626ff74da01c51b4433d773, type: 3}
 --- !u!4 &6434023949008752315 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4508673751743100, guid: f4ae7a79b626ff74da01c51b4433d773, type: 3}
   m_PrefabInstance: {fileID: 6438522578945750215}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6440122178164423473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1639182053036022, guid: f4ae7a79b626ff74da01c51b4433d773, type: 3}
+  m_PrefabInstance: {fileID: 6438522578945750215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &7139073933120944708
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6440122178164423473}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300260, guid: 87b751928235ced49a4a5bee39a873cc, type: 3}
 --- !u!1001 &6703799505143290133
 PrefabInstance:
   m_ObjectHideFlags: 0
