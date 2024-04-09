@@ -1297,19 +1297,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 742112076}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 568600125}
-        m_TargetAssemblyTypeName: RandomNumGenerator, Assembly-CSharp
-        m_MethodName: RandomGenerate
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &742112076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2427,19 +2415,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1379716191}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 568600125}
-        m_TargetAssemblyTypeName: RandomNumGenerator, Assembly-CSharp
-        m_MethodName: RandomGenerate
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1379716191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3253,6 +3229,7 @@ GameObject:
   - component: {fileID: 1775997200}
   - component: {fileID: 1775997199}
   - component: {fileID: 1775997201}
+  - component: {fileID: 1775997202}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -3333,13 +3310,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aRRaycastManager: {fileID: 1775997199}
-  spawnablePrefab: {fileID: 0}
-  Board: {fileID: 0}
-  Player1Piece: {fileID: 0}
-  Player2Piece: {fileID: 0}
-  BoardButton: {fileID: 0}
-  Player1Button: {fileID: 0}
-  Player2Button: {fileID: 0}
+  spawnablePrefab: {fileID: 1693677709709504603, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
+  Board: {fileID: 1693677709709504603, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
+  Player1Piece: {fileID: 1990493805405916, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+  Player2Piece: {fileID: 1797155887212042, guid: 285b36fd7bddf8d4bb07598e935a78aa, type: 3}
+  BoardButton: {fileID: 1641684536}
+  Player1Button: {fileID: 1564156695}
+  Player2Button: {fileID: 206406015}
+--- !u!114 &1775997202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775997196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d2816a4277ac614880fdefc8ad3e1a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneyText: {fileID: 1894243119}
+  careerText: {fileID: 584407435}
+  TaxText: {fileID: 1079508791}
+  MarriageText: {fileID: 1161890207}
+  ChildrenText: {fileID: 1046303216}
+  InsuranceText: {fileID: 2003691176}
+  LifeTileText: {fileID: 1377727968}
+  confirmButton: {fileID: 742112073}
 --- !u!1 &1894243117
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,17 +2,18 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class MoneyManager : MonoBehaviour
 {
     public static MoneyManager instance;
-    public Text moneyText;
-    public Text careerText;
-    public Text TaxText;
-    public Text MarriageText;
-    public Text ChildrenText;
-    public Text InsuranceText;
-    public Text LifeTileText;
+    public TMP_Text moneyText;
+    public TMP_Text careerText;
+    public TMP_Text TaxText;
+    public TMP_Text MarriageText;
+    public TMP_Text ChildrenText;
+    public TMP_Text InsuranceText;
+    public TMP_Text LifeTileText;
     Hashtable careerSalary = new Hashtable();
     Hashtable careerTaxes = new Hashtable();
     string[] careerDegreeList = { "Doctor", "IT", "Teacher", "Accountant"};
