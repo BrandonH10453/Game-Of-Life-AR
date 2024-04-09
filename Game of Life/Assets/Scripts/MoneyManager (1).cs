@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,13 +12,16 @@ public class MoneyManager : MonoBehaviour
     public Text MarriageText;
     public Text ChildrenText;
     public Text InsuranceText;
-    public Text StockText;
+    public Text LifeTileText;
     Hashtable careerSalary = new Hashtable();
     Hashtable careerTaxes = new Hashtable();
     string[] careerDegreeList = { "Doctor", "IT", "Teacher", "Accountant"};
     string[] careerNondegreeList = {"Police Officer", "Designer", "Artist", "Athlete", "Actor"};
 
     int money = 0;
+    int children = 0;
+    int Lifetile = 0;
+    string married = "Single";
     string career = "Doctor";
 
     // Add a public GameObject for the confirmation button
@@ -30,7 +34,9 @@ public class MoneyManager : MonoBehaviour
 
     void Start()
     {
-        moneyText.text = "$" + money.ToString();
+        moneyText.text = "Cash: $" + money.ToString();
+        ChildrenText.text = "Children: " + children.ToString();
+        LifeTileText.text = "Life Tile: " + Lifetile.ToString();
         careerSalary.Add("Doctor", 80000);
         careerSalary.Add("IT", 70000);
         careerSalary.Add("Teacher", 50000);
@@ -121,7 +127,7 @@ public class MoneyManager : MonoBehaviour
                 Pay10k(10000);
                 break;
             case "Life Space":
-                PickUpLifeTile();
+                PickUpLifeTile(1);
                 break;
             case "Pay 5k if not insured":
                 Pay5kIfNotInsured(5000);
@@ -207,17 +213,14 @@ public class MoneyManager : MonoBehaviour
             case "Lose your job":
                 LoseJob();
                 break;
-            case "Baby Boy!":
-                BabyBoy();
-                break;
-            case "Baby Girl!":
-                BabyGirl();
+            case "Add a person and Life Space":
+                AddChild(1, 1);
                 break;
             case "Get Married":
                 GetMarried();
                 break;
             case "Twins!":
-                Twins();
+                Twins(2, 1);
                 break;
             case "Collect 20k times spin":
                 CollectMoneyTimesSpin(20000);
@@ -229,7 +232,7 @@ public class MoneyManager : MonoBehaviour
                 EducationField50k(50000);
                 break;
             case "Start College":
-                StartCollege();
+                StartCollege(40000);
                 break;
             case "Start Career":
                 StartCareer();
@@ -321,9 +324,10 @@ public class MoneyManager : MonoBehaviour
         money -= amount;
         moneyText.text = "Cash: $" + money.ToString();
     }
-    public void PickUpLifeTile()
+    public void PickUpLifeTile(int tile)
     {
-        // Add your implementation here
+        Lifetile += tile;
+        LifeTileText.text = "Life Tile: " + Lifetile.ToString();
     }
     public void Pay5kIfNotInsured(int amount)
     {
@@ -438,21 +442,23 @@ public class MoneyManager : MonoBehaviour
     {
         // Add your implementation here
     }
-    public void BabyBoy()
+    public void AddChild(int child, int tile)
     {
-        // Add your implementation here
-    }
-    public void BabyGirl()
-    {
-        // Add your implementation here
+        children += child;
+        Lifetile += tile;
+        ChildrenText.text = "Children: " + children.ToString();
+        LifeTileText.text = "Life Tile: " + Lifetile.ToString();
     }
     public void GetMarried()
     {
         // Add your implementation here
     }
-    public void Twins()
+    public void Twins(int child, int tile)
     {
-        // Add your implementation here
+        children += child;
+        Lifetile += tile;
+        ChildrenText.text = "Children: " + children.ToString();
+        LifeTileText.text = "Life Tile: " + Lifetile.ToString();
     }
     public void CollectMoneyTimesSpin(int amount)
     {
@@ -466,9 +472,10 @@ public class MoneyManager : MonoBehaviour
     {
         // Add your implementation here
     }
-    public void StartCollege()
+    public void StartCollege(int amount)
     {
-        // Add your implementation here
+        money -= amount;
+        moneyText.text = "Cash: $" + money.ToString();
     }
 
     public void StartCareer()
