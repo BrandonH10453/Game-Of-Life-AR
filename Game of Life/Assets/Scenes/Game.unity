@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641228, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -702,6 +702,7 @@ GameObject:
   - component: {fileID: 548884235}
   - component: {fileID: 548884234}
   - component: {fileID: 548884233}
+  - component: {fileID: 548884237}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -807,6 +808,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &548884237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548884232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d2816a4277ac614880fdefc8ad3e1a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneyText: {fileID: 1894243119}
+  careerText: {fileID: 584407435}
+  TaxText: {fileID: 1079508791}
+  MarriageText: {fileID: 1161890207}
+  ChildrenText: {fileID: 1046303216}
+  InsuranceText: {fileID: 2003691176}
+  LifeTileText: {fileID: 1377727968}
+  confirmButton: {fileID: 742112073}
 --- !u!1 &563967735
 GameObject:
   m_ObjectHideFlags: 0
@@ -2173,63 +2194,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161890205}
   m_CullTransparentMesh: 1
---- !u!1001 &1231198880
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 649566729838574155, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 649566729838574155, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 649566729838574155, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 649566729838574155, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 649566729838574155, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 649566729838574155, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 649566729838574155, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 649566729838574155, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 649566729838574155, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 649566729838574155, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1693677709709504603, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
-      propertyPath: m_Name
-      value: Plane
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 96b5f1fb11374724f95c517dafb7bd1a, type: 3}
 --- !u!1 &1236145112
 GameObject:
   m_ObjectHideFlags: 0
@@ -2641,7 +2605,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 548884237}
         m_TargetAssemblyTypeName: MoneyManager, Assembly-CSharp
         m_MethodName: playerSwitch
         m_Mode: 1
@@ -4034,4 +3998,3 @@ SceneRoots:
   - {fileID: 2018409052}
   - {fileID: 568600124}
   - {fileID: 1090503365}
-  - {fileID: 1231198880}
