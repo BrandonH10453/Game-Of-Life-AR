@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23687269937319712}
   - component: {fileID: -2842921470031457125}
   - component: {fileID: -220684763313063152}
+  - component: {fileID: 8924619482139267439}
   m_Layer: 0
   m_Name: pawn_A_blue
   m_TagString: Spawnable
@@ -130,7 +131,27 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
+  m_Constraints: 112
+  m_CollisionDetection: 2
+--- !u!114 &8924619482139267439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797155887212042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d2816a4277ac614880fdefc8ad3e1a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneyText: {fileID: 0}
+  careerText: {fileID: 0}
+  TaxText: {fileID: 0}
+  MarriageText: {fileID: 0}
+  ChildrenText: {fileID: 0}
+  InsuranceText: {fileID: 0}
+  LifeTileText: {fileID: 0}
+  confirmButton: {fileID: 0}
