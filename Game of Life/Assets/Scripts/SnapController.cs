@@ -6,7 +6,7 @@ public class SnapController : MonoBehaviour
 {
     public List<Transform> snapPoints;
     public List<Draggable> draggableObjects;
-    public float snapRange = 0.2f;
+    public float snapRange = 0.7f;
 
     // Start is called before the first frame update
     void Start()

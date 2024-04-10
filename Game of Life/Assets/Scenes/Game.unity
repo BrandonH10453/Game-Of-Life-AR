@@ -2023,7 +2023,7 @@ MonoBehaviour:
   draggableObjects:
   - {fileID: 5289702924533935457, guid: 285b36fd7bddf8d4bb07598e935a78aa, type: 3}
   - {fileID: 2272110403138722961, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
-  snapRange: 0.2
+  snapRange: 0.7
 --- !u!4 &1090503365
 Transform:
   m_ObjectHideFlags: 0
