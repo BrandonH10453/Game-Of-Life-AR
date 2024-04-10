@@ -2416,7 +2416,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1775997202}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MoneyManager, Assembly-CSharp
         m_MethodName: playerSwitch
         m_Mode: 1
@@ -2636,7 +2636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -5.4383545, y: -182}
+  m_AnchoredPosition: {x: -5.4384766, y: -182}
   m_SizeDelta: {x: 300.05298, y: 101.9191}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1564156695
@@ -3241,7 +3241,6 @@ GameObject:
   - component: {fileID: 1775997200}
   - component: {fileID: 1775997199}
   - component: {fileID: 1775997201}
-  - component: {fileID: 1775997202}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -3329,26 +3328,6 @@ MonoBehaviour:
   BoardButton: {fileID: 1641684536}
   Player1Button: {fileID: 1564156695}
   Player2Button: {fileID: 206406015}
---- !u!114 &1775997202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1775997196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d2816a4277ac614880fdefc8ad3e1a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moneyText: {fileID: 1894243119}
-  careerText: {fileID: 584407435}
-  TaxText: {fileID: 1079508791}
-  MarriageText: {fileID: 1161890207}
-  ChildrenText: {fileID: 1046303216}
-  InsuranceText: {fileID: 2003691176}
-  LifeTileText: {fileID: 1377727968}
-  confirmButton: {fileID: 742112073}
 --- !u!1 &1894243117
 GameObject:
   m_ObjectHideFlags: 0
