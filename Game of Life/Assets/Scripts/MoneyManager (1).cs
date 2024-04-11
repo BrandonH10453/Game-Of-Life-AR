@@ -14,13 +14,14 @@ public class MoneyManager : MonoBehaviour
     public TMP_Text ChildrenText;
     public TMP_Text InsuranceText;
     public TMP_Text LifeTileText;
+    public TMP_Text PlayerNumber;
     Hashtable careerSalary = new Hashtable();
     Hashtable careerTaxes = new Hashtable();
     string[] careerDegreeList = { "Doctor", "IT", "Teacher", "Accountant"};
     string[] careerNondegreeList = {"Police Officer", "Designer", "Artist", "Athlete", "Actor"};
     bool playerFlag = true;
     playerInfo player1 = new playerInfo(0, 0, 0, "single", "unemployed");
-    playerInfo player2 = new playerInfo(0, 0, 0, "single", "unemployed");
+    playerInfo player2 = new playerInfo(1, 1, 1, "single", "unemployed");
 
     public class playerInfo
     {
@@ -100,6 +101,7 @@ public class MoneyManager : MonoBehaviour
     {
         if (playerFlag)
         {
+            PlayerNumber.text = "Player 2 Turn";
             playerFlag = false;
             moneyText.text = "Cash: $" + player2.getMoney().ToString();
             ChildrenText.text = "Children: " + player2.getChildren().ToString();
@@ -109,6 +111,7 @@ public class MoneyManager : MonoBehaviour
         }
         else
         {
+            PlayerNumber.text = "Player 1 Turn";
             playerFlag = true;
             moneyText.text = "Cash: $" + player1.getMoney().ToString();
             ChildrenText.text = "Children: " + player1.getChildren().ToString();
@@ -128,6 +131,7 @@ public class MoneyManager : MonoBehaviour
 
     void Start()
     {
+        PlayerNumber.text = "Player 1 Turn";
         moneyText.text = "Cash: $" + player1.getMoney().ToString();
         ChildrenText.text = "Children: " + player1.getChildren().ToString();
         LifeTileText.text = "Life Tile: " + player1.getlifeTile().ToString();
