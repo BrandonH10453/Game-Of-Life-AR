@@ -827,6 +827,7 @@ MonoBehaviour:
   ChildrenText: {fileID: 1046303216}
   InsuranceText: {fileID: 2003691176}
   LifeTileText: {fileID: 1377727968}
+  PlayerNumber: {fileID: 563967737}
   confirmButton: {fileID: 742112073}
 --- !u!1 &563967735
 GameObject:
@@ -862,8 +863,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -4.7924805, y: 0.39624023}
-  m_SizeDelta: {x: 299.4072, y: 84.7925}
+  m_AnchoredPosition: {x: 60.23401, y: 12.299988}
+  m_SizeDelta: {x: 393.817, y: 84.7925}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &563967737
 MonoBehaviour:
@@ -919,7 +920,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 4
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1042,7 +1043,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.06261111, y: 0.85437036}
   m_AnchorMax: {x: 0.06261111, y: 0.85437036}
-  m_AnchoredPosition: {x: 556.42, y: 121.23}
+  m_AnchoredPosition: {x: 556.3906, y: 121.23001}
   m_SizeDelta: {x: 475.1586, y: 72.884}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &584407435
@@ -2044,7 +2045,7 @@ MonoBehaviour:
   draggableObjects:
   - {fileID: 5289702924533935457, guid: 285b36fd7bddf8d4bb07598e935a78aa, type: 3}
   - {fileID: 2272110403138722961, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
-  snapRange: 0.7
+  snapRange: 5
 --- !u!4 &1090503365
 Transform:
   m_ObjectHideFlags: 0
