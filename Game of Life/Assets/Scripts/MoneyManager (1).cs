@@ -17,11 +17,11 @@ public class MoneyManager : MonoBehaviour
     public TMP_Text PlayerNumber;
     Hashtable careerSalary = new Hashtable();
     Hashtable careerTaxes = new Hashtable();
-    string[] careerDegreeList = { "Doctor", "IT", "Teacher", "Accountant"};
+    string[] careerDegreeList = {"Doctor", "IT", "Teacher", "Accountant"};
     string[] careerNondegreeList = {"Police Officer", "Designer", "Artist", "Athlete", "Actor"};
     bool playerFlag = true;
-    playerInfo player1 = new playerInfo(0, 0, 0, "single", "unemployed");
-    playerInfo player2 = new playerInfo(1, 1, 1, "single", "unemployed");
+    playerInfo player1 = new playerInfo(0, 0, 0, "single", "unemployed", "No");
+    playerInfo player2 = new playerInfo(1, 1, 1, "Married", "Artist", "Yes");
 
     public class playerInfo
     {
@@ -29,13 +29,14 @@ public class MoneyManager : MonoBehaviour
         public playerInfo() { }
 
         // Constructor
-        public playerInfo(int money, int children, int lifeTile, string married, string career)
+        public playerInfo(int money, int children, int lifeTile, string married, string career, string insurance)
         {
             this.money = money;
             this.children = children;
             this.lifeTile = lifeTile;
             this.married = married;
             this.career = career;
+            this.insurance = insurance;
         }
 
         // Sets and Gets
@@ -64,6 +65,11 @@ public class MoneyManager : MonoBehaviour
             return (married);
         }
 
+        public string getInsured()
+        {
+            return (insurance);
+        }
+
         public void setMoney(int value)
         {
             this.money = value;
@@ -89,9 +95,15 @@ public class MoneyManager : MonoBehaviour
             this.career = value;
         }
 
+        public void getInsured(string value)
+        {
+            this.insurance = value;
+        }
+
         // Properties for the playerInfo Class
         string married;
         string career;
+        string insurance;
         int money;
         int children;
         int lifeTile;
@@ -108,6 +120,7 @@ public class MoneyManager : MonoBehaviour
             LifeTileText.text = "Life Tile: " + player2.getlifeTile().ToString();
             MarriageText.text = "Married: " + player2.getMarried().ToString();
             careerText.text = "Career: " + player2.getCareer().ToString();
+            InsuranceText.text = "Insured: " + player2.getInsured().ToString();
         }
         else
         {
@@ -118,6 +131,7 @@ public class MoneyManager : MonoBehaviour
             LifeTileText.text = "Life Tile: " + player1.getlifeTile().ToString();
             MarriageText.text = "Married: " + player1.getMarried().ToString();
             careerText.text = "Career: " + player1.getCareer().ToString();
+            InsuranceText.text = "Insured: " + player1.getInsured().ToString();
         }
     }
   
