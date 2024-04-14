@@ -123,6 +123,110 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &1194582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1990493805405916, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: m_Name
+      value: pawn_A_red
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149624336197638, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149624336197638, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149624336197638, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149624336197638, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149624336197638, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149624336197638, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149624336197638, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149624336197638, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149624336197638, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149624336197638, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 70164572728290400, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: TaxText
+      value: 
+      objectReference: {fileID: 1079508791}
+    - target: {fileID: 70164572728290400, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: moneyText
+      value: 
+      objectReference: {fileID: 1894243119}
+    - target: {fileID: 70164572728290400, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: careerText
+      value: 
+      objectReference: {fileID: 584407435}
+    - target: {fileID: 70164572728290400, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: ChildrenText
+      value: 
+      objectReference: {fileID: 1046303216}
+    - target: {fileID: 70164572728290400, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: LifeTileText
+      value: 
+      objectReference: {fileID: 1377727968}
+    - target: {fileID: 70164572728290400, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: MarriageText
+      value: 
+      objectReference: {fileID: 1161890207}
+    - target: {fileID: 70164572728290400, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: PlayerNumber
+      value: 
+      objectReference: {fileID: 563967737}
+    - target: {fileID: 70164572728290400, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: InsuranceText
+      value: 
+      objectReference: {fileID: 2003691176}
+    - target: {fileID: 70164572728290400, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+      propertyPath: confirmButton
+      value: 
+      objectReference: {fileID: 742112073}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+--- !u!114 &1194584 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 70164572728290400, guid: 8195a909a4fb8cd47aaf83edb6b3941f, type: 3}
+  m_PrefabInstance: {fileID: 1194582}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d2816a4277ac614880fdefc8ad3e1a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &32463911
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,7 +967,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 60.23401, y: 12.299988}
+  m_AnchoredPosition: {x: 60.233887, y: 12.300049}
   m_SizeDelta: {x: 393.817, y: 84.7925}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &563967737
@@ -1319,7 +1423,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 742112076}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1194584}
+        m_TargetAssemblyTypeName: MoneyManager, Assembly-CSharp
+        m_MethodName: OnConfirmButtonClick
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Collect 10k
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1194584}
+        m_TargetAssemblyTypeName: MoneyManager, Assembly-CSharp
+        m_MethodName: OnConfirmButtonClick
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pay 5k
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &742112076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3999,3 +4127,4 @@ SceneRoots:
   - {fileID: 2018409052}
   - {fileID: 568600124}
   - {fileID: 1090503365}
+  - {fileID: 1194582}
