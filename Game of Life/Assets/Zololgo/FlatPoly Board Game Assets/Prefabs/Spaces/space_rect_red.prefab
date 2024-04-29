@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6756530222840043985}
   m_Layer: 0
   m_Name: space_rect_red
-  m_TagString: Career Choice
+  m_TagString: Life Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

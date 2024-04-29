@@ -3,7 +3,62 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Spawnable
+  - Millionaire Estates
+  - Trade Salary
+  - Pay Day
+  - Start Career
+  - Add 2 people and Life Space
+  - Career Choice
+  - Life Space
+  - 'Actor Field: 5k'
+  - 'Tech Field: 25k'
+  - Add a person and Life Space
+  - 'Art Field: 20k'
+  - Collect 95k
+  - 'Art Field: 25k'
+  - 'Actor Field: 15k'
+  - 'Police Field: 15k'
+  - 'Education Field: 5k per child'
+  - 'Designer Field: 25k'
+  - 'Doctor Field: 5k'
+  - Pay 5k
+  - 'Sports Field: 20k'
+  - 'Education Field: 5k'
+  - Taxes Due
+  - 'Designer Field: 30k'
+  - Pay 5k if not insured
+  - 'Art Field: 125k'
+  - 'Art Field: 15k'
+  - 'Sports Field: 25k'
+  - Change Career & Salary Pay 20k
+  - 'Sports Field: 65k'
+  - 'Education Field: 50k per child'
+  - New Career
+  - Collect 10k
+  - Miss next turn
+  - Collect 80k
+  - Collect 100k
+  - 'Doctor Field: 100k'
+  - Collect 75k
+  - Draw Deed
+  - 'Designer Field: 5k'
+  - 'Actor Field: 100k'
+  - Retire
+  - 'Doctor Field: 25k'
+  - Collect 20k times spin
+  - Pay 10k
+  - 'Sports Field: 30k'
+  - 'Tech Field: 10k'
+  - Collect 5k
+  - Collect 50k
+  - Pay 50k
+  - Pay 125k
+  - Pay 15k
+  - Sell house, buy new one
+  - Collect 20k
+  - Collect 15k
   layers:
   - Default
   - TransparentFX

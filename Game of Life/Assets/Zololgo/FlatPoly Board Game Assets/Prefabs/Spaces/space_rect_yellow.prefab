@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4771351174414154092}
   m_Layer: 0
   m_Name: space_rect_yellow
-  m_TagString: Life Space
+  m_TagString: Pay 15k
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

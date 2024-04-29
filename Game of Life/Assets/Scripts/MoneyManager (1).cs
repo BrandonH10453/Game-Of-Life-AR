@@ -10,7 +10,6 @@ public class MoneyManager : MonoBehaviour
     public TMP_Text TaxText;
     public TMP_Text MarriageText;
     public TMP_Text ChildrenText;
-    public TMP_Text InsuranceText;
     public TMP_Text LifeTileText;
     public TMP_Text PlayerNumber;
     Hashtable careerSalary = new Hashtable();
@@ -18,8 +17,8 @@ public class MoneyManager : MonoBehaviour
     string[] careerDegreeList = {"Doctor", "IT", "Teacher", "Accountant"};
     string[] careerNondegreeList = {"Police Officer", "Designer", "Artist", "Athlete", "Actor"};
     bool playerFlag = true;
-    playerInfo player1 = new playerInfo(0, 0, 0, "single", "unemployed", "No");
-    playerInfo player2 = new playerInfo(1, 1, 1, "Married", "Artist", "Yes");
+    playerInfo player1 = new playerInfo(0, 0, 0, "single", "unemployed");
+    playerInfo player2 = new playerInfo(1, 1, 1, "Married", "Artist");
 
     public class playerInfo
     {
@@ -27,14 +26,13 @@ public class MoneyManager : MonoBehaviour
         public playerInfo() { }
 
         // Constructor
-        public playerInfo(int money, int children, int lifeTile, string married, string career, string insurance)
+        public playerInfo(int money, int children, int lifeTile, string married, string career)
         {
             this.money = money;
             this.children = children;
             this.lifeTile = lifeTile;
             this.married = married;
             this.career = career;
-            this.insurance = insurance;
         }
 
         // Sets and Gets
@@ -63,11 +61,6 @@ public class MoneyManager : MonoBehaviour
             return (married);
         }
 
-        public string getInsured()
-        {
-            return (insurance);
-        }
-
         public void setMoney(int value)
         {
             this.money = value;
@@ -93,15 +86,9 @@ public class MoneyManager : MonoBehaviour
             this.career = value;
         }
 
-        public void getInsured(string value)
-        {
-            this.insurance = value;
-        }
-
         // Properties for the playerInfo Class
         string married;
         string career;
-        string insurance;
         int money;
         int children;
         int lifeTile;
@@ -118,7 +105,6 @@ public class MoneyManager : MonoBehaviour
             LifeTileText.text = "Life Tile: " + player2.getlifeTile().ToString();
             MarriageText.text = "Married: " + player2.getMarried().ToString();
             careerText.text = "Career: " + player2.getCareer().ToString();
-            InsuranceText.text = "Insured: " + player2.getInsured().ToString();
         }
         else
         {
@@ -129,7 +115,6 @@ public class MoneyManager : MonoBehaviour
             LifeTileText.text = "Life Tile: " + player1.getlifeTile().ToString();
             MarriageText.text = "Married: " + player1.getMarried().ToString();
             careerText.text = "Career: " + player1.getCareer().ToString();
-            InsuranceText.text = "Insured: " + player1.getInsured().ToString();
         }
     }
   
@@ -177,23 +162,23 @@ public class MoneyManager : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         // Check if the collided object has one of the tags
-        if (collision.gameObject.tag == "Collect 20k" || collision.gameObject.tag == "Collect 10k" || collision.gameObject.tag == "Collect 5k" ||
+        if (collision.gameObject.tag == "Collect 20k" || collision.gameObject.tag == "Collect 10k" || collision.gameObject.tag == "Collect 5k" || collision.gameObject.tag == "Collect 15k" ||
             collision.gameObject.tag == "Collect 75k" || collision.gameObject.tag == "Collect 80k" || collision.gameObject.tag == "Collect 50k"||
             collision.gameObject.tag == "Collect 95k" || collision.gameObject.tag == "Collect 100k"|| collision.gameObject.tag == "Pay 5k" ||
             collision.gameObject.tag == "Pay 10k" || collision.gameObject.tag == "Start College" || collision.gameObject.tag == "Start Career" ||
             collision.gameObject.tag == "Pay Day" || collision.gameObject.tag == "Millionaire Estates" || collision.gameObject.tag == "Countryside Acres" ||
-            collision.gameObject.tag == "Career Choice" || collision.gameObject.tag == "Life Space" || collision.gameObject.tag == "Pay 5k if not insured"||
-            collision.gameObject.tag == "Miss next turn"|| collision.gameObject.tag == "Pay 15k if not insured" || collision.gameObject.tag == "Draw Deed"||
-            collision.gameObject.tag == "Doctor Field: 5k" || collision.gameObject.tag == "Tech Field: 10k" || collision.gameObject.tag == "Change Career Salary Pay 20k"||
-            collision.gameObject.tag == "Taxes Due" || collision.gameObject.tag == "New Career" || collision.gameObject.tag == "Add a person and Life Space"||
+            collision.gameObject.tag == "Career Choice" || collision.gameObject.tag == "Life Space" || collision.gameObject.tag == "Miss next turn"||
+            collision.gameObject.tag == "Pay 15k" || collision.gameObject.tag == "Doctor Field: 5k" ||
+            collision.gameObject.tag == "Tech Field: 10k" || collision.gameObject.tag == "Change Career Salary Pay 20k"|| collision.gameObject.tag == "Taxes Due" || 
+            collision.gameObject.tag == "New Career" || collision.gameObject.tag == "Add a person and Life Space"||
             collision.gameObject.tag == "Add 2 people and Life Space" || collision.gameObject.tag == "Sports Field: 20k" || collision.gameObject.tag == "Actor Field: 5k"||
-            collision.gameObject.tag == "Pay 40k if not insured" || collision.gameObject.tag == "Trade Salary" || collision.gameObject.tag == "Tech Field: 25k"||
+            collision.gameObject.tag == "Trade Salary" || collision.gameObject.tag == "Tech Field: 25k"||
             collision.gameObject.tag == "Art Field: 20k" || collision.gameObject.tag == "Sports Field: 25k" || collision.gameObject.tag == "Education Field: 5k"||
-            collision.gameObject.tag == "Sell house, buy new one" || collision.gameObject.tag == "Police Field: 15k" || collision.gameObject.tag == "Art Field: 15k"||
-            collision.gameObject.tag == "Actor Field: 15k" || collision.gameObject.tag == "Art Field: 25k" || collision.gameObject.tag == "Education Field: 5k per child"||
-            collision.gameObject.tag == "Sport Field: 30k" || collision.gameObject.tag == "Pay 125k if not insured"||
-            collision.gameObject.tag == "Doctor Field: 25k" || collision.gameObject.tag == "Actor Field: 100k" || collision.gameObject.tag == "Education Field: 50k per child"||
-            collision.gameObject.tag == "Pay 50k if not insured" || collision.gameObject.tag == "Art Field: 125k" || collision.gameObject.tag == "Sports Field: 65k"||
+            collision.gameObject.tag == "Police Field: 15k" || collision.gameObject.tag == "Art Field: 15k"|| collision.gameObject.tag == "Actor Field: 15k" ||
+            collision.gameObject.tag == "Art Field: 25k" || collision.gameObject.tag == "Education Field: 5k per child"||
+            collision.gameObject.tag == "Sport Field: 30k" || collision.gameObject.tag == "Pay 125k"|| collision.gameObject.tag == "Doctor Field: 25k"||
+            collision.gameObject.tag == "Actor Field: 100k" || collision.gameObject.tag == "Education Field: 50k per child"||
+            collision.gameObject.tag == "Pay 50k" || collision.gameObject.tag == "Art Field: 125k" || collision.gameObject.tag == "Sports Field: 65k"||
             collision.gameObject.tag == "Collect 20k times spin" || collision.gameObject.tag == "Designer Field: 5k" || collision.gameObject.tag == "Designer Field: 30k"||
             collision.gameObject.tag == "Designer Field: 25k" || collision.gameObject.tag == "Retire")
         {
@@ -216,6 +201,9 @@ public class MoneyManager : MonoBehaviour
                 break;
             case "Collect 5k":
                 Collect5k(5000, playerFlag);
+                break;
+            case "Collect 15k":
+                Collect15k(15000, playerFlag);
                 break;
             case "Collect 75k":
                 Collect75k(75000, playerFlag);
@@ -241,20 +229,17 @@ public class MoneyManager : MonoBehaviour
             case "Life Space":
                 PickUpLifeTile(1, playerFlag);
                 break;
-            case "Pay 5k if not insured":
-                Pay5kIfNotInsured(5000);
-                break;
-            case "Pay 15k if not insured":
-                Pay15kIfNotInsured(15000);
+            case "Pay 15k":
+                Pay15k(15000, playerFlag);
                 break;
             case "Pay 40k if not insured":
                 Pay40kIfNotInsured(40000);
                 break;
-            case "Pay 50k if not insured":
-                Pay50kIfNotInsured(50000);
+            case "Pay 50k":
+                Pay50k(50000, playerFlag);
                 break;
-            case "Pay 125k if not insured":
-                Pay125kIfNotInsured(125000);
+            case "Pay 125k":
+                Pay125k(125000, playerFlag);
                 break;
             case "Miss next turn":
                 MissNextTurn();
@@ -425,6 +410,19 @@ public class MoneyManager : MonoBehaviour
             moneyText.text = "Cash: $" + player2.getMoney().ToString();
         }
     }
+    public void Collect15k(int amount, bool flag)
+    {
+        if (flag)
+        {
+            player1.setMoney(player1.getMoney() + amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() + amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
+    }
     public void Collect50k(int amount, bool flag)
     {
         if (flag)
@@ -529,25 +527,48 @@ public class MoneyManager : MonoBehaviour
             LifeTileText.text = "Life Tile: " + player2.getlifeTile().ToString();
         }
     }
-    public void Pay5kIfNotInsured(int amount)
+    public void Pay15k(int amount, bool flag)
     {
-        // Add your implementation here
-    }
-    public void Pay15kIfNotInsured(int amount)
-    {
-        // Add your implementation here
+         if (flag)
+        {
+            player1.setMoney(player1.getMoney() - amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() - amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
     public void Pay40kIfNotInsured(int amount)
     {
         // Add your implementation here
     }
-    public void Pay50kIfNotInsured(int amount)
+    public void Pay50k(int amount, bool flag)
     {
-        // Add your implementation here
+        if (flag)
+        {
+            player1.setMoney(player1.getMoney() - amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() - amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
-    public void Pay125kIfNotInsured(int amount)
+    public void Pay125k(int amount, bool flag)
     {
-        // Add your implementation here
+         if (flag)
+        {
+            player1.setMoney(player1.getMoney() - amount);
+            moneyText.text = "Cash: $" + player1.getMoney().ToString();
+        }
+        else
+        {
+            player2.setMoney(player2.getMoney() - amount);
+            moneyText.text = "Cash: $" + player2.getMoney().ToString();
+        }
     }
     public void MissNextTurn()
     {
